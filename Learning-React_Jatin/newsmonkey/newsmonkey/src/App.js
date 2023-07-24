@@ -23,7 +23,7 @@ export default class App extends Component {
   // ]
   render() {
     return (
-      <div>
+      <div >
       <Router>
         <Navbar />
         {/* <News size={5} category={'general'} country={'in'}></News> */}
@@ -31,7 +31,7 @@ export default class App extends Component {
             <Route  path="/" element={<News key="home" size={20} category="general" country='in'/>}/>
             <Route  path="/general" element={<News key="general" size={20} category="general" country='in'/>}/>
             <Route  path="/business" element={<News key="business" size={20} category="business" country='in'/>}/>
-            <Route  path="/entertainment"element={<News key="entertainment" size={20} ategory="entertainment"country='in'/>}/>
+            <Route  path="/entertainment"element={<News key="entertainment" size={20} category="entertainment"country='in'/>}/>
             <Route  path="/health" element={<News key="health" size={20} category="health" country='in'/>}/>
             <Route  path="/science" element={<News key="science" size={20} category="science" country='in'/>}/>
             <Route  path="/sports" element={<News key="sports" size={20} category="sports" country='in'/>}/>
